@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +15,91 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.navbar {
+  display: flex;
+  background-color:white;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  border-bottom: 2px solid rgb(113, 113, 252); 
+
+}
+h1 {
+  color:rgb(113, 113, 252);
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+}
+.navbar ul li {
+  display: inline-block;
+  justify-content: space-between;
+}
+li {
+  list-style-type: none;
+  color: rgb(113, 113, 252);
+}
+button {
+  margin-left: 20px;
+  padding: 10px 25px;
+  background-color:rgb(113, 113, 252);
+  border: none;
+  border-radius: 10px;
+  cursor:pointer;
+  color: aliceblue;
+}
+button:hover {
+  background-color: black;
+}
+.cards{
+  margin: 0 auto;
+  width: 90%;
+  cursor: pointer;
+ }
+.card-container {
+  border: 2px solid rgb(113, 113, 252);
+  background-color: white;
+  height: fit-content;
+  width: 300px;
+  float: left;
+  margin:5px 5px;
+  border-radius: 10px;
+}
+.image  { 
+  height: 150px;
+  width:300px;
+}
+.image img { 
+  width: inherit;
+  height:100%;
+  padding: 20px ;
+}
+.SignInForm{
+  display: flex;
+  justify-content: center;
+  padding:100px;
+}
+.Hovering{
+  width:100%;
+  height: 100%;
+  background-color: white;
+  position: fixed;
+  left: 0;
+  top:0%;
+}
+.Hovering img{
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+}
+
+.Hovering p{
+  margin: 0 auto;
+}
+.Center{
+  width: 700px;
+  margin: 20px auto;
 }
